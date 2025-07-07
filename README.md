@@ -29,17 +29,6 @@ A Streamlit-based application to send **bulk personalized emails** for various p
 - **Security:** SSL encryption
 
 ---
-
-# 🛠️ Installation
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/sanika-tikole/ai-email-agent.git
-cd ai-email-agent
-
----
-
 **🔐 Gmail App Password Setup**  
 Enable 2-Step Verification for your Google Account.  
 Go to App Passwords  
@@ -102,8 +91,17 @@ Your Excel file should contain the following columns:
 📝 **Note:** The **`Job Role`** column is **optional** and used only when sending **Interview Emails**.
 
 ---
-🙌 Credits
-Developed by [Sanika Tikole] 
+# Screenshots
+ this consists all email sender block
+![image](https://github.com/user-attachments/assets/0aaf5a78-7210-4c65-8dc3-c8cc594e634e)
+# interview email
+![image](https://github.com/user-attachments/assets/b657f850-9fd2-4067-b3a5-63d337b60c13)
+# marketing email
+![image](https://github.com/user-attachments/assets/070cefff-da93-4c31-8b56-b7e5cde1e0b9)
+# custom email 
+![image](https://github.com/user-attachments/assets/0a582ec8-4a52-4ad3-a512-6cfabfc63c76)
+
+---
 
 **✅ Use Cases**
 
@@ -111,3 +109,7 @@ Developed by [Sanika Tikole]
 - 💼 HR interview scheduling  
 - 🎓 College project or academic mailer  
 - 🔔 Notification systems for small teams
+  
+---
+🙌 Credits
+Developed by [Sanika Tikole] 
