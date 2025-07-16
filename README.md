@@ -64,6 +64,7 @@ Time: Monday, 8 July 2025 at 11:00 AM
 Please be on time.  
 Best regards,  
 HR Team
+
 ---
 
 **🛠️ Custom Bulk Email Example**
