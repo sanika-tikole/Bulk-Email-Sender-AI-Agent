@@ -128,6 +128,9 @@ with open("app.py", "w") as f:
 !ngrok config add-authtoken "enter_your_auth_token"
 
 from pyngrok import ngrok
+import os
+os.makedirs("/content/.streamlit", exist_ok=True)
+os.environ['HOME'] = '/content'
 
 # Start Streamlit app
 !mkdir -p /content/.streamlit
