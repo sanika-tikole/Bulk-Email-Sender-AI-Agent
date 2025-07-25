@@ -125,9 +125,10 @@ if st.button("🚀 Send Emails"):
 with open("app.py", "w") as f:
     f.write(code)
 
+from pyngrok import ngrok
 !ngrok config add-authtoken "enter_your_auth_token"
 
-from pyngrok import ngrok
+
 import os
 os.makedirs("/content/.streamlit", exist_ok=True)
 os.environ['HOME'] = '/content'
