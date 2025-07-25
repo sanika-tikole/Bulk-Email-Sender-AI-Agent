@@ -125,7 +125,7 @@ if st.button("🚀 Send Emails"):
 with open("app.py", "w") as f:
     f.write(code)
 
-!ngrok config add-authtoken 2yGoKhUCLFBfu8kO3lfosPkZvEn_CdpzBrjUuo5SmxCSq3od
+!ngrok config add-authtoken "enter_your_auth_token"
 
 from pyngrok import ngrok
 
