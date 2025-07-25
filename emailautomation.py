@@ -130,6 +130,8 @@ with open("app.py", "w") as f:
 from pyngrok import ngrok
 
 # Start Streamlit app
+!mkdir -p /content/.streamlit
+
 !streamlit run app.py &>/content/logs.txt &
 
 # Open ngrok tunnel the correct way (updated)
